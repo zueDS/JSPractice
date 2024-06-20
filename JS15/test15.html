@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple form validation</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <form id=" my-form" name="myForm" action="#">
+        <label for="name">Name:</label>
+        <input type="text" name="name"><br/>
+        <label>Hobbies:</label><br/>
+        <input type="checkbox" name="biking">Biking<br/>
+        <input type="checkbox" name="skiing">Skiing<br/>
+        <input type="checkbox" name="driving">Driving<br/>
+        <label for="color">Fav Color:</label>
+
+        <select name="color">
+            <option>Red</option>
+            <option>Blue</option>
+            <option>Green</option>
+        </select>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <div id="message" style="color: red;"></div> 
+
+    <script src="test15.js"></script>
+</body>
+</html>

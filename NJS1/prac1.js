@@ -20,3 +20,10 @@ const backpack = {
 }
 
 console.log("The object called BAckpack",backpack);
+
+//Accessing the object properties
+
+console.log("The pocketNum value:", backpack.pocketNum); //Accessing objects using dot(.) notation.
+console.log("Strap length of left:", backpack.strapLength.left);
+
+console.log("Strap length of right:", backpack.strapLength["right"]); //Accessing object using bracket[] notation.

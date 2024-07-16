@@ -1,4 +1,4 @@
-
+import Backpack from "./Backpack.js";
 
 
 const everydayPack = new Backpack(

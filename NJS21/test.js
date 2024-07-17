@@ -36,7 +36,7 @@ const content = `
       everydayPack.strapLength.right
     } inches</span></li>
     <li class="feature backpack__lid">Lid status:<span> ${
-      everydayPack.lidOpen
+      everydayPack.lidOpen ? "open" : "closed" //adding ternary operator into template literal 
     }</span></li>
   </ul>
 `;
@@ -49,3 +49,15 @@ newArticle.setAttribute("id", "everyday");
 newArticle.innerHTML = content;
 
 main.append(newArticle);
+
+// if statement applying 
+if (everydayPack.lidOpen === true){
+    console.log("Lid is open!");
+}else {
+    console.log("Lid is close!");
+}
+/* we can use if/else statement in short hand version of this called a
+TERNARY OPERATOR.
+The ternary operator looks like this */
+
+console.log(everydayPack.lidOpen ? "open" : "closed");

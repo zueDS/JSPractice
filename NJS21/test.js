@@ -61,3 +61,21 @@ TERNARY OPERATOR.
 The ternary operator looks like this */
 
 console.log(everydayPack.lidOpen ? "open" : "closed");
+
+/* examples for conditional statement using logical operators
+* != not equal 
+* !== not absolute equal to
+*/
+if(everydayPack.backpackAge() >= 30) {
+    console.log("Backpack is used")
+}else{
+    console.log("Backpack is new one")
+}
+
+// more complex logical operators
+// || Or statement tests the Either condition A or B or both
+if(everydayPack.volume > 15 && everydayPack.pocketNum >=5) {
+    console.log("Backpack is big")
+}else{
+    console.log("Backpack is small")
+}
